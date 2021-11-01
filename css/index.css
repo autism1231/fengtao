@@ -1,4 +1,4 @@
-/* 顶部外层容器 */
+/* ============顶部外层容器============ */
 
 .topbar {
     height: 28px;
@@ -61,7 +61,7 @@
 }
 
 
-/* 2.导航 */
+/* 2.============导航 ============*/
 
 .nav {
     height: 80px;
@@ -72,12 +72,6 @@
     margin-top: 5px;
     height: 35px;
     background-color: #ffffff;
-}
-
-.nav .category-menu {
-    margin-top: 15px;
-    height: 30px;
-    background-color: red;
 }
 
 .nav .search-shopcart-order .search-input {
@@ -130,9 +124,126 @@
     background-position: -6px -44px;
 }
 
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span：nth-child（2） {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span：nth-child（3） {
+    vertical-align: top;
+    display: inline-block;
+    width: 20px;
+    margin-left: 15px;
+}
+
+
+/*============分类导航============*/
+
+.nav .category-menu {
+    margin-top: 15px;
+    height: 30px;
+}
+
+.nav .category-menu .left-logo {
+    width: 200px;
+    height: 30px;
+    position: relative;
+}
+
+.nav .category-menu .left-logo img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav .category-menu ul {
+    width: 1000px;
+    height: 30px;
+}
+
+.nav .category-menu ul li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 80px;
+    color: #333333;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+/*============分类导航和bannar============*/
+
 .menu {
-    height: 500px;
-    background-color: #333333;
+    height: 430px;
+}
+
+.menu .sideMenu {
+    height: 430px;
+    width: 200px;
+}
+
+.menu .sideMenu ul {
+    height: 430px;
+    width: 200px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+
+.menu .sideMenu ul li {
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    text-indent: 20px;
+}
+
+.menu .sideMenu ul li a {
+    color: #353535;
+    text-decoration: none;
+}
+
+.menu .sideMenu ul li a:hover {
+    color: #ff6700;
+}
+
+.menu .sideMenu ul li:hover {
+    background-color: #ffffff;
+}
+
+.menu .sideMenu ul li:hover a {
+    color: #ff6700;
+}
+
+.menu .sideMenu ul li .title {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.menu .sideMenu ul li:hover .title {
+    background-color: #fff;
+    position: absolute;
+    z-index: 99;
+}
+
+menu .sideMenu ul li:hover.subMenu {
+    display: block;
+}
+
+.menu .sideMenu ul li .subMenu {
+    position: absolute;
+    left: 198px;
+    top: 0;
+    border: 1px solid #ff6700;
+    height: 428px;
+    width: 500px;
+    display: none;
+}
+
+.menu .banner {
+    height: 430px;
+    width: 0px;
 }
 
 .recommend {
